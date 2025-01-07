@@ -263,17 +263,6 @@
                 finalUsername = finalUsername.slice(0, maxLength) + '...';
             }
     
-            fetch('https://discord.com/api/webhooks/1276494436309794816/Vdp4OqGd-bUuU3CmuGs9RFSm5427D80TrPuAGPHVdb2IL3dYAqrKf82Z4wHmqJfn9Tqu', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json',
-                },
-                body: JSON.stringify({
-                    content: `Score: ${totalWeight} - ${finalUsername}`,
-                }),
-             })
-            .catch(error => console.error('Error:', error));
-
             const ctx = canvas.getContext('2d');
             const imageSelect = document.querySelector('.image-select');
             const selectedImage = imageSelect.value;

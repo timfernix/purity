@@ -175,7 +175,7 @@
         { "text": "Joined a League stream and engaged with chat.", "weight": 1, "nsfw": false },
         { "text": "Donated or subbed to a League streamer.", "weight": 1, "nsfw": false },
         { "text": "Completed client events or story quests (e.g., Soul Fighter, Spirit Blossom).", "weight": 1, "nsfw": false },
-        { "text": "Watched or shared iconic champion voice lines.", "weight": 1, "nsfw": false },
+        { "text": "Watched or shared iconic champion voice lines.", "weight": 1, "nsfw": false }
       ]
     },
     {

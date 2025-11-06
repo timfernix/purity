@@ -1,399 +1,110 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>timfernix' League Purity Test</title>
-  <link rel="icon" type="image/x-icon" href="favicon.png">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
-  <link rel="stylesheet" href="style.css" />
-  <meta property="og:title" content="timfernix' League Purity Test" />
-  <meta property="og:description" content="Take the test and find out how pure you are! Tick the boxes to get your summary in the end." />
-  <meta property="og:image" content="https://timfernix.github.io/LeaguePurityTest/emote.png" />
-  <meta property="og:url" content="https://timfernix.github.io/LeaguePurityTest/" />
-  <meta property="og:site_name" content="League Purity Test" />
-  <meta property="og:type" content="website" />
-</head>
-<body>
-  <div class="container">
-  <div class="imageHead"><img src="favicon.png" alt="n">
-  <h1>timfernix' League Purity Test</h1></div>
-  <h6>Version: 2.9 | Last updated: August 28th 2024 @ 09:20PM EET</h6>
-  <p id="how-to">Welcome to my League of Legends Purity Test. This test is designed to gauge your League of Legends experience and habits. Simply click on all the statements that apply to you. As you go through the test, you'll notice a mix of positive and negative statements. That's because your score can be negative if you've made some... questionable choices in-game. Once you've clicked on all the statements that apply to you, enter your name, choose a background image to personalize your results (at least a little bit). Finally, click on "Show Results" to see your score! <br><br>Some of the questions are inspired by my first version of the League Purity Test that i posted on <a href="https://x.com/timfernix/status/1825226833777840179/photo/1" target=”_blank”><i class="fa-brands fa-x-twitter"></i> / Twitter</a>, but i added many more to make it even better. So, be honest and have fun! <br><br>Note: Be aware that this is a subjective test, as it was only created by me and therefore based on my experience and just to have a bit of fun with it. I look forward to any feedback under my announcement post on <a href="https://x.com/timfernix/status/1827270025004150791" target=”_blank”><i class="fa-brands fa-x-twitter"></i> / Twitter</a> Thank you very much!</p>
-  <div id="list-container">
-      <h2>Sportmanship</h2>
-      <ul id="list">
-        <li><input type="checkbox" id="item1" value="2"> <label for="item1">Have you ever encouraged your teammates with positive comments during a game?</label></li>
-        <li><input type="checkbox" id="item2" value="2"> <label for="item2">Have you ever complimented an opponent on their good play or a well-executed strategy?</label></li>
-        <li><input type="checkbox" id="item3" value="3"> <label for="item3">Have you ever chosen not to kill a disconnected or AFK player, even when you had the opportunity?</label></li>
-        <li><input type="checkbox" id="item4" value="1"> <label for="item4">Have you ever started a lighthearted or humorous conversation with an enemy player during a game?</label></li>
-        <li><input type="checkbox" id="item5" value="1"> <label for="item5">Have you ever complimented a player for their skin or chroma?</label></li>
-        <li><input type="checkbox" id="item6" value="2"> <label for="item6">Have you ever gone out of your lane to protect your Support's ward from being destroyed?</label></li>
-        <li><input type="checkbox" id="item7" value="3"> <label for="item7">Have you ever jumped in front of an ability (such as Caitlyn's ultimate) to save a teammate from taking damage/dying?</label></li>
-      </ul>
-      <h2>Gameplay Feats</h2>
-      <ul id="list">
-        <li><input type="checkbox" id="item8" value="2"> <label for="item8">Have you ever voted against a surrender and gone on to achieve a victory in the game?</label></li>
-        <li><input type="checkbox" id="item9" value="3"> <label for="item9">Have you ever helped a teammate secure a pentakill by setting them up for success?</label></li>
-        <li><input type="checkbox" id="item10" value="2"> <label for="item10">Have you ever gotten a pentakill yourself, taking out all five enemy champions in a single teamfight?</label></li>
-        <li><input type="checkbox" id="item11" value="2"> <label for="item11">Have you ever solo-killed Baron Nashor, securing the powerful buff for your team?</label></li>
-        <li><input type="checkbox" id="item12" value="2"> <label for="item12">Have you ever stolen an objective, such as the Elder Dragon, using a well-timed Smite or ability?</label></li>
-        <li><input type="checkbox" id="item13" value="3"> <label for="item13">Have you ever turned the tide of a game with a well-placed ultimate ability, sparking a teamfight that led to a comeback?</label></li>
-        <li><input type="checkbox" id="item14" value="2"> <label for="item14">Have you ever carried a game to victory with a non-meta or unconventional champion build?</label></li>
-        <li><input type="checkbox" id="item15" value="2"> <label for="item15">Have you ever accurately predicted the enemy jungle's pathing and caught them off guard?</label></li>
-        <li><input type="checkbox" id="item16" value="3"> <label for="item16">Have you ever successfully defended your nexus against two or more enemy champions alone?</label></li>
-        <li><input type="checkbox" id="item17" value="2"> <label for="item17">Have you ever won a game without losing a single turret?</label></li>
-        <li><input type="checkbox" id="item18" value="1"> <label for="item18">Have you ever achieved an S+ rating in a ranked game?</label></li>
-        <li><input type="checkbox" id="item19" value="1"> <label for="item19">Have you ever participated in a 5-man teamfight wipeout?</label></li>
-        <li><input type="checkbox" id="item20" value="1"> <label for="item20">Have you ever successfully roamed to another lane and gotten one or more kills?</label></li>
-        <li><input type="checkbox" id="item21" value="1"> <label for="item21">Have you ever gone 10 minutes or longer without dying?</label></li>
-        <li><input type="checkbox" id="item97" value="2"> <label for="item97">Have you ever pulled off a 1v2 or 1v3 (or better)?</label></li>
-        <li><input type="checkbox" id="item98" value="1"> <label for="item98">Have you ever conducted a flawless invade, stealing the enemy's buff?</label></li>
-        <li><input type="checkbox" id="item99" value="2"> <label for="item99">Have you ever won all 5 or 10 placement matches?</label></li>
-        <li><input type="checkbox" id="item100" value="1"> <label for="item100">Have you ever had a 10+ game winning streak?</label></li>
-        <li><input type="checkbox" id="item101" value="1"> <label for="item101">Have you ever gotten all 4 drakes in a row, earning the Dragon Soul without the enemy team getting a single drake?</label></li>
-        <li><input type="checkbox" id="item102" value="1"> <label for="item102">Have you ever doubled your enemy's vision score?</label></li>
-        <li><input type="checkbox" id="item31" value="-1"> <label for="item31">Have you ever engaged in rage-split pushing?</label></li>
-        <li><input type="checkbox" id="item29" value="1"> <label for="item29">Have you ever intentionally given a pentakill to an enemy player (because it didn't change the outcome of the game)?</label></li>
-      </ul>
-      <h2>Negative Behavior</h2>
-      <ul id="list">
-        <li><input type="checkbox" id="item23" value="-2"> <label for="item23">Have you ever intentionally sent explicit or inappropriate (suggestive or offensive) messages in all chat or team chat?</label></li>
-        <li><input type="checkbox" id="item24" value="-2"> <label for="item24">Have you ever used a slur towards another player during a game?</label></li>
-        <li><input type="checkbox" id="item25" value="-3"> <label for="item25">Have you ever intentionally fed or "ran it down" to the enemy team?</label></li>
-        <li><input type="checkbox" id="item26" value="-2"> <label for="item26">Have you ever soft-inted or abandoned a teamfight or objective, putting your team at a disadvantage?</label></li>
-        <li><input type="checkbox" id="item27" value="-2"> <label for="item27">Have you ever rage-quit a game (because of your own / your teams' performance) ?</label></li>
-        <li><input type="checkbox" id="item28" value="-1"> <label for="item28">Have you ever stolen a pentakill from a teammate, either accidentally or on purpose?</label></li>
-        <li><input type="checkbox" id="item30" value="-2"> <label for="item30">Have you ever spammed FF votes in an attempt to end the game prematurely?</label></li>
-        <li><input type="checkbox" id="item32" value="-2"> <label for="item32">Have you ever intentionally thrown a game in order to create a dramatic or impressive play for a montage or highlight video?</label></li>
-        <li><input type="checkbox" id="item33" value="-1"> <label for="item33">Have you ever intentionally stolen a kill from a teammate?</label></li>
-        <li><input type="checkbox" id="item34" value="-2"> <label for="item34">Have you ever spammed pings at a teammate, harassing or annoying them?</label></li>
-        <li><input type="checkbox" id="item35" value="-1"> <label for="item35">Have you ever refused to follow another player's strategy or advice, leading to a loss or poor team performance?</label></li>
-        <li><input type="checkbox" id="item36" value="-1"> <label for="item36">Have you ever received a chat restriction?</label></li>
-        <li><input type="checkbox" id="item37" value="-1"> <label for="item37">Have you ever received a warning?</label></li>
-        <li><input type="checkbox" id="item38" value="-1"> <label for="item38">Have you ever received a two-week suspension?</label></li>
-        <li><input type="checkbox" id="item39" value="-3"> <label for="item39">Have you ever received a permanent ban?</label></li>
-        <li><input type="checkbox" id="item109" value="-3"> <label for="item109">Have you ever used a third-party program to cheat in a game?</label></li>
-      </ul>
-      <h2>Gameplay Mistakes</h2>
-      <ul id="list">
-        <li><input type="checkbox" id="item40" value="-1"> <label for="item40">Have you ever lost an objective to an enemy player who didn't use Smite?</label></li>
-        <li><input type="checkbox" id="item41" value="-2"> <label for="item41">Have you ever missed an important ability (like your ultimate) in a critical situation, leading to a negative outcome for your team?</label></li>
-        <li><input type="checkbox" id="item42" value="-1"> <label for="item42">Have you ever been caught out by a roaming jungler or mid laner and died alone?</label></li>
-        <li><input type="checkbox" id="item43" value="-1"> <label for="item43">Have you ever been completely destroyed in a solo lane, unable to do anything to stop the enemy champion's dominance?</label></li>
-        <li><input type="checkbox" id="item44" value="-1"> <label for="item44">Have you ever had a terrible game on a champion you thought you were good with?</label></li>
-        <li><input type="checkbox" id="item45" value="-2"> <label for="item45">Have you ever been outplayed by an opponent with a much lower rank?</label></li>
-        <li><input type="checkbox" id="item46" value="-2"> <label for="item46">Have you ever had a game where you went 0/10 or worse, failing to get any kills?</label></li>
-        <li><input type="checkbox" id="item47" value="-1"> <label for="item47">Have you ever lategame split-pushed in URF?</label></li>
-        <li><input type="checkbox" id="item48" value="-1"> <label for="item48">Have you ever been focused by the enemy team because you were an easy target, leading to repeated deaths?</label></li>
-        <li><input type="checkbox" id="item49" value="-1"> <label for="item49">Have you ever been the only one to die in a teamfight multiple times in a row?</label></li>
-        <li><input type="checkbox" id="item103" value="-1"> <label for="item103">Have you ever missclicked and typed instead of using an ability, or used an ability instead of typing?</label></li>
-        <li><input type="checkbox" id="item104" value="-1"> <label for="item104">Have you ever played with the wrong runes?</label></li>
-        <li><input type="checkbox" id="item105" value="-1"> <label for="item105">Have you ever gotten caught in an invade?</label></li>
-        <li><input type="checkbox" id="item106" value="-1"> <label for="item106">Have you ever overcommitted to a gank and died unnecessarily?</label></li>
-        <li><input type="checkbox" id="item107" value="-2"> <label for="item107">Have you ever died to a minion in lane or jungle monster?</label></li>
-        <li><input type="checkbox" id="item108" value="-1"> <label for="item108">Have you ever failed to last-hit several cannon minions in one game?</label></li>
-      </ul>
-      <h2>Champion Select</h2>
-      <ul id="list">
-        <li><input type="checkbox" id="item50" value="1"> <label for="item50">Have you ever swapped pick order with a teammate?</label></li>
-        <li><input type="checkbox" id="item51" value="1"> <label for="item51">Have you ever switched lanes with a teammate during champion select?</label></li>
-        <li><input type="checkbox" id="item52" value="1"> <label for="item52">Have you ever matched skins with a friend?</label></li>
-        <li><input type="checkbox" id="item53" value="1"> <label for="item53">Have you ever matched skins with a random teammate?</label></li>
-        <li><input type="checkbox" id="item54" value="2"> <label for="item54">Have you ever had a game where all five members of your team matched their skins?</label></li>
-        <li><input type="checkbox" id="item55" value="1"> <label for="item55">Have you ever given your champion to a friend in an ARAM?</label></li>
-        <li><input type="checkbox" id="item56" value="1"> <label for="item56">Have you (mostly) played ARAM games (or temporary modes) without using Exhaust?</label></li>
-        <li><input type="checkbox" id="item57" value="1"> <label for="item57">Have you ever banned an opponent's comfort pick?</label></li>
-        <li><input type="checkbox" id="item63" value="-1"> <label for="item63">Have you ever been easily counter-picked by the enemy team?</label></li>
-        <li><input type="checkbox" id="item58" value="2"> <label for="item58">Have you ever picked a champion that countered more than three of the enemy champions?</label></li>
-        <li><input type="checkbox" id="item59" value="-2"> <label for="item59">Have you ever troll-picked a champion, selecting a champion that would force someone else to dodge the game or change their pick?</label></li>
-        <li><input type="checkbox" id="item60" value="-1"> <label for="item60">Have you ever refused to trade champions with a teammate, even after they repeatedly asked or begged you to?</label></li>
-        <li><input type="checkbox" id="item61" value="-1"> <label for="item61">Have you ever denied matching skins with a teammate after they asked you to?</label></li>
-        <li><input type="checkbox" id="item62" value="-1"> <label for="item62">Have you ever been autofilled into a role you don't play at all and lost the game?</label></li>
-      </ul>
-      <h2>Social</h2>
-      <ul id="list">
-        <li><input type="checkbox" id="item64" value="2"> <label for="item64">Have you ever taught a friend how to play League of Legends, explaining a game's mechanic or strategy?</label></li>
-        <li><input type="checkbox" id="item65" value="2"> <label for="item65">Have you ever gifted a skin, Riot Points, or other in-game items to someone?</label></li>
-        <li><input type="checkbox" id="item66" value="1"> <label for="item66">Have you ever played custom games with a friend to try out a new skin/skill/strategy/mechanic/...?</label></li>
-        <li><input type="checkbox" id="item67" value="1"> <label for="item67">Have you ever invited someone to play with you simply because you saw they were online, without any prior planning?</label></li>
-        <li><input type="checkbox" id="item68" value="1"> <label for="item68">Have you ever had multiple folders in your friends list, organizing your friends into different groups or categories?</label></li>
-        <li><input type="checkbox" id="item69" value="3"> <label for="item69">Have you ever played League of Legends with your real-life best friend as your duo partner?</label></li>
-        <li><input type="checkbox" id="item96" value="2"> <label for="item96">Have you ever played with friends to earn challenge points, completing specific objectives and challenges together?</label></li>
-        <li><input type="checkbox" id="item70" value="1"> <label for="item70">Have you ever played a game with a friend or teammate, saying it would be "the last game for tonight," but ended up playing more?</label></li>
-        <li><input type="checkbox" id="item71" value="1"> <label for="item71">Have you ever chosen a funny, creative, or iconic username/Riot ID?</label></li>
-        <li><input type="checkbox" id="item72" value="2"> <label for="item72">Have you ever participated in duels or tournaments with friends?</label></li>
-        <li><input type="checkbox" id="item73" value="3"> <label for="item73">Have you ever become friends with someone you met while playing League of Legends?</label></li>
-        <li><input type="checkbox" id="item74" value="1"> <label for="item74">Have you ever given party ownership to someone else, letting them decide what gamemode to play?</label></li>
-        <li><input type="checkbox" id="item75" value="1"> <label for="item75">Have you ever been asked by someone for a build or strategy advice for a champion you're playing?</label></li>
-        <li><input type="checkbox" id="item76" value="2"> <label for="item76">Have you ever offered constructive feedback to a teammate or even an enemy in the post-game lobby?</label></li>
-        <li><input type="checkbox" id="item77" value="1"> <label for="item77">Have you ever apologized to your team for a bad play or game, taking responsibility for your mistakes?</label></li>
-        <li><input type="checkbox" id="item78" value="-1"> <label for="item78">Have you ever created a smurf/secondary account to play with a romantic interest?</label></li>
-        <li><input type="checkbox" id="item79" value="-1"> <label for="item79">Have you ever engaged in flirtatious or romantic conversations with someone in League of Legends direct messages?</label></li>
-        <li><input type="checkbox" id="item80" value="-3"> <label for="item80">Have you ever performed sexual favors in exchange for a boost or in-game items, such as skins or Riot Points?</label></li>
-        <li><input type="checkbox" id="item81" value="-3"> <label for="item81">Have you ever given a boost or in-game items to someone in exchange for sexual favors?</label></li>
-      </ul>
-      <h2>Miscellaneous</h2>
-      <ul id="list">
-        <li><input type="checkbox" id="item82" value="1"> <label for="item82">Have you ever fed the Poros in an ARAM game?</label></li>
-        <li><input type="checkbox" id="item83" value="1"> <label for="item83">Have you ever made a Poro explode in an ARAM game?</label></li>
-        <li><input type="checkbox" id="item84" value="1"> <label for="item84">Have you ever customized your own profile page?</label></li>
-        <li><input type="checkbox" id="item85" value="1"> <label for="item85">Have you ever gifted, got or received an item from the Riot Merch store or another Riot-branded retailer?</label></li>
-        <li><input type="checkbox" id="item86" value="2"> <label for="item86">Have you ever reached Honor level 5?</label></li>
-        <li><input type="checkbox" id="item87" value="2"> <label for="item87">Have you ever gotten all 4 honors in a single game?</label></li>
-        <li><input type="checkbox" id="item88" value="3"> <label for="item88">Have you achieved Mastery level 100+ on a champion?</label></li>
-        <li><input type="checkbox" id="item89" value="1"> <label for="item89">Have you ever collected all skins for a particular champion?</label></li>
-        <li><input type="checkbox" id="item95" value="1"> <label for="item95">Have you ever completed an in-client event, such as Spirit Blossom, Soul Fighter or the Aurora/Ornn quest?</label></li>
-        <li><input type="checkbox" id="item110" value="2"> <label for="item110">Have you ever used the replay feature to analyze one of your games?</label></li>
-        <li><input type="checkbox" id="item90" value="-2"> <label for="item90">Have you ever shared your League of Legends account with someone else, allowing them to play on your account to boost your rank or progress?</label></li>
-        <li><input type="checkbox" id="item91" value="-3"> <label for="item91">Have you ever bought a boost or account?</label></li>
-        <li><input type="checkbox" id="item92" value="-3"> <label for="item92">Have you boosted someone or sold an account?</label></li>
-        <li><input type="checkbox" id="item93" value="-2"> <label for="item93">Have you ever played League of Legends while under the influence of substances, such as being high or drunk?</label></li>
-        <li><input type="checkbox" id="item94" value="-1"> <label for="item94">Have you ever cried while playing League of Legends, feeling emotional about a game or a situation that unfolded during a match?</label></li>
-      </ul><br><br>
-      <h2>Select background and get your score</h2>
-      <p>Please fill in your username or Riot ID (max. 22. letters), choose a background image and click `Show Results` to see your score. You can download your summary below.</p>
-      <div>
-        <label for="username">Username:</label>
-        <input type="text" id="username" required>
-        <select class="image-select">
-          <option value="">Select a background</option>
-          <option value="image1">Kayn, Lucian, Lux, Annie & Ekko</option>
-          <option value="image2">Yone, Kindred, Caitlyn, Illaoi & Veigar</option>
-          <option value="image3">Senna, Vi, Yasuo, Lulu & Volibear</option>
-          <option value="image4">Tristana, Malphite, Ekko, Katarina & Morgana</option>
-          <option value="image8">Jayce, Ornn, Taliyah, Kaisa & Pyke</option>
-          <option value="image14">Ezreal, Lee Sin, Teemo, Lux & Leona</option>
-          <option value="image16">Evelynn, Seraphine, Ekko, Ahri & Sett</option>
-          <option value="image17">Nilah, Hecarim & Vladimir</option>
-          <option value="image15">Star Guardians Season 1</option>
-          <option value="image11">Star Guardians Season 2</option>
-          <option value="image9">Star Guardians Season 4</option>
-          <option value="image13">Spirit Blossom</option>
-          <option value="image18">Heartthrob</option>
-          <option value="image5">Anima Squad</option>
-          <option value="image10">Heartsteel</option>
-          <option value="image6">Pride</option>
-          <option value="image7">Baron</option>
-          <option value="image12">DRX</option>
-        </select>
-        <button id="show-results" disabled>Show Results/Update</button>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>League Purity Test</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#1d1a20" />
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body class="spoiler-hidden">
+    <header class="site-header">
+            <section class="controls" aria-label="Filters and progress">
+        <div class="controls__row">
+<div class="brand">
+        <img src="favicon.png" alt="" class="brand__icon" width="40" height="40">
+        <h1 class="brand__title">timfernix’ League of Legends Purity Test</h1>
+        <div id="progress" class="topbar__progress" role="progressbar"
+     aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"
+     aria-label="Answered questions">
+  <div id="progress__bar" class="topbar__progress-bar"></div>
+  <div id="progress__label" class="topbar__progress-label">0/0 · 0%</div>
+</div>
       </div>
-      <div id="summary-container">
-        <h2>Summary:</h2>
-        <p id="summary">No items selected</p>
-        <div id="image-container">
-            <div id="canvas-container" style="display: none;">
-                <canvas id="canvas" width="1920" height="1080"></canvas><br>
-            </div>
-          <button class="download-button" id="download-btn" disabled>Download Image</button>
+
+          <label class="switch" id="reveal-switch">
+            <input id="reveal-points-toggle" type="checkbox" role="switch" aria-checked="false" />
+            <span class="switch-track" aria-hidden="true"></span>
+            <span class="switch-label">Reveal points</span>
+          </label>
         </div>
-  </div>
-  <div id="footer">
-    League Purity Test by <a href="https://x.com/timfernix" target="_blank"><i class="fa-brands fa-x-twitter"></i> timfernix</a> | <a href="https://github.com/timfernix" target="_blank"><i class="fa-brands fa-github"></i> timfernix </a><br>
-    <h5>This Project was created under Riot Games' "Legal Jibber Jabber" policy using assets owned by Riot Games.  Riot Games does not endorse or sponsor this project.</h5>
-  </div>
-  <script>
-    const listItems = document.querySelectorAll('#list li input[type="checkbox"]');
-    const summaryElement = document.getElementById('summary');
-    const imageElement = document.getElementById('image');
-    const downloadButton = document.getElementById('download-btn');
-    const showResultsButton = document.getElementById('show-results');
-    let usernameInput = document.getElementById('username');
-    const container = document.getElementById('canvas-container');
-  
-    let totalWeight = 0;
-    let selectedItems = [];
+      </section>
+    </header>
 
-    showResultsButton.disabled = true;
+    <main id="app" class="app">
 
-    listItems.forEach((item) => {
-        item.addEventListener('change', (e) => {
-            if (e.target.checked) {
-                totalWeight += parseInt(e.target.value);
-                selectedItems.push(e.target.id);
-                if (usernameInput.value !== '' && selectedItems.length > 0) {
-                    showResultsButton.disabled = false; 
-                }
-            } else {
-                totalWeight -= parseInt(e.target.value);
-                selectedItems = selectedItems.filter((id) => id !== e.target.id);
-                if (usernameInput.value === '' || selectedItems.length === 0) {
-                    showResultsButton.disabled = true; 
-                }
-            }
-        });
-    });
+      <section id="lists" class="lists" aria-label="Question groups"></section>
 
-    usernameInput.addEventListener('input', () => {
-        if (usernameInput.value !== '') {
-            if (selectedItems.length > 0) {
-                showResultsButton.disabled = false; 
-            }
-        } else {
-            showResultsButton.disabled = true; 
-        }
-    });
+      <section class="result-card" aria-label="Result setup">
+        <div class="form-row">
+          <label for="username">Username / Riot ID</label>
+          <input id="username" type="text" inputmode="latin" maxlength="22" placeholder="Max 22 chars" />
+          <small id="user-help" class="help" aria-live="polite"></small>
+        </div>
 
-    showResultsButton.addEventListener('click', () => {
-        if (selectedItems.length === 0) {
-            summaryElement.textContent = 'No items selected';
-            imageElement.src = '';
-            downloadLink.href = '#';
-        } else {
-            if(document.querySelector('.image-select').value != ''){
-            container.style.display = 'block'; }
+        <div class="form-row">
+          <label for="bg-select">Background</label>
+          <select id="bg-select">
+            <option value="">Select a background</option>
+            <option value="keyart7">Kayn, Lucian, Lux, Annie & Ekko</option>
+            <option value="keyart8">Yone, Kindred, Caitlyn, Illaoi & Veigar</option>
+            <option value="keyart1">Senna, Vi, Yasuo, Lulu & Volibear</option>
+            <option value="keyart6">Tristana, Malphite, Ekko, Katarina & Morgana</option>
+            <option value="keyart5">Aatrox, Orianna, Caitlyn, Yasuo & Braum</option>
+            <option value="keyart2">Jinx, Malphite, Braum & Ezreal (Wildrift)</option>
+            <option value="keyart4">Keyart 1</option>
+            <option value="keyart3">Keyart 2</option>
+            <option value="Season2">Season 2 Keyart</option>
+            <option value="Season3">Season 3 Keyart</option>
+            <option value="Season2014">Season 2014 Keyart</option>
+            <option value="Preseason2020">Preseason 2020</option>
+            <option value="Preseason2022">Preseason 2022</option>
+            <option value="Season22">Season 22 Keyart</option>
+            <option value="Preseason2023">Preseason 2023</option>
+            <option value="Season2024">Season 2024 Keyart</option>
+            <option value="wildrift1">Wildrift Promoart 1</option>
+            <option value="wildrift2">Wildrift Promoart 2</option>
+            <option value="wildriftHappy2022">Happy 2022 Wildrift</option>
+            <option value="wildriftS11">Wildrift Season 11</option>
+            <option value="yourpath">Forge Your Path</option>
+            <option value="lor">Legends of Runeterra</option>
+            <option value="starguardian2022">Star Guardians 2022</option>
+            <option value="newhorizon">Star Guardians New Horizon</option>
+            <option value="empyrean">Empyrean Skinline</option>
+            <option value="kda">KDA LoR Art</option>
+            <option value="psyops">PsyOps Skinline</option>
+            <option value="heavenscale">Heavenscale Skinline</option>
+            <option value="heartsteel">Heartsteel</option>
+            <option value="t1">TI 2024 Skinline</option>
+            <option value="pride">Pride</option>
+            <option value="tft">TFT Set 15</option>
+            <option value="doombots2025">Doombots 2025</option>
+          </select>
+        </div>
 
-            let positiveCount = 0;
-            let negativeCount = 0;
-            selectedItems.forEach((id) => {
-                const value = parseInt(document.getElementById(id).value);
-                if (value > 0) {
-                positiveCount++;
-            } else if (value < 0) {
-                negativeCount++;
-            }   
-        });
+        <div class="actions">
+          <button id="show-results" disabled>Show Results / Update</button>
+        </div>
 
-        const summaryText = `You selected ${selectedItems.length} item(s), of which ${positiveCount} were positive and ${negativeCount} negative, resulting in a score of ${totalWeight} point(s)!`;
-        summaryElement.textContent = summaryText;
+        <div class="canvas-wrap">
+          <canvas id="result-canvas" width="1920" height="1080" hidden></canvas>
+          <button id="download-btn" disabled>Download Image</button>
+        </div>
+      </section>
+    </main>
 
-            let finalUsername = usernameInput.value
-            let maxLength = 22;
-
-            if (finalUsername.length > maxLength) {
-                finalUsername = finalUsername.slice(0, maxLength) + '...';
-            }
-    
-            const ctx = canvas.getContext('2d');
-            const imageSelect = document.querySelector('.image-select');
-            const selectedImage = imageSelect.value;
-
-            if (totalWeight < -51) {
-                weight = `You've managed to scrape together ${totalWeight} points.`
-                title = `Reflect on your behavior and gameplay. Toxicity has no place here. `;
-                title2 = `Take a break, reassess, and come back with a fresh attitude.`;
-                rank = "iron";
-                emote = "1despair";
-             } else if (totalWeight < -28) {
-                weight = `You've earned a modest ${totalWeight} points.`
-                title = `Step back and assess your behavior and gameplay.`;
-                title2 = `Identify areas for improvement and work on a positive attitude.`;
-                rank = "bronze";
-                emote = "2kidding";
-             } else if (totalWeight < -6) {
-                weight = `You've scored a decent ${totalWeight} points.`
-                title = `You're struggling. Focus on improving skills and attitude. Toxic`;
-                title2 = `behavior holds you back. Be a positive influence and minimize mistakes.`;
-                rank = "silver";
-                emote = "3what";
-             } else if (totalWeight < 15) {
-                weight = `You've racked up a respectable ${totalWeight} points.`
-                title = `You're showing promise, but need improvement.`;
-                title2 = `Develop good habits and a positive attitude to see progress.`;
-                rank = "gold";
-                emote = "4nicetry";
-             } else if (totalWeight < 34) {
-                weight = `You've accumulated a nice ${totalWeight} points.`
-                title = `You're on the right track! Keep working on skills and`;
-                title2 = `stay respectful and positive, even in tough situations.`;
-                rank = "platinum";
-                emote = "5great";
-             } else if (totalWeight < 51) {
-                weight = `You've notched up a solid ${totalWeight} points.`
-                title = `You're making progress! Keep up the good work and stay focused on`;
-                title2 = `improvement. You're getting closer to your full potential.`;
-                rank = "emerald";
-                emote = "6okay";
-             } else if (totalWeight < 66) {
-                weight = `You've banked a impressive ${totalWeight} points.`
-                title = `You're a skilled player with a great attitude!`;
-                title2 = `Lead by example and show what it means to be a good sport.`;
-                rank = "diamond";
-                emote = "7gj";
-             } else if (totalWeight < 80) {
-                weight = `You've chalked up an excellent ${totalWeight} points.`
-                title = `You're exceptional! Keep pushing yourself to`;
-                title2 = `improve and stay humble and respectful, even in victory.`;
-                rank = "master";
-                emote = "8love";
-             } else if (totalWeight < 91) {
-                weight = `You've reached an outstanding ${totalWeight} points.`
-                title = `You're a master of the game! Keep lifting up teammates`;
-                title2 = `and opponents, and never stop striving for excellence.`;
-                rank = "grandmaster";
-                emote = "9nice";
-             }  else { // 91-100
-                weight = `You scored an impressive ${totalWeight} points.`
-                title = `You're a legend in the making! Keep shining, and always`;
-                title2 = `lift up those around you. You're a true role model.`;
-                rank = "challenger";
-                emote = "10ez";
-             }
-
-            const backgroundImage = new Image();
-            backgroundImage.src = `./images/${selectedImage}.png`;
-            backgroundImage.onload = () => {
-                ctx.drawImage(backgroundImage, 0, 0, canvas.width, canvas.height);
-
-            const rankImage = new Image();
-            rankImage.src = `./ranks/${rank}.png`;
-            rankImage.onload = () => {
-                ctx.drawImage(rankImage, 200, 250, 300, 300);
-
-            const emoteImage = new Image();
-            emoteImage.src = `./emotes/${emote}.png`;
-            emoteImage.onload = () => {
-                ctx.drawImage(emoteImage, 1400, 250, 300, 300);
-
-            ctx.font = '50px myFont';
-            ctx.fillStyle = '#FFFFFF';
-            ctx.textAlign = 'center';
-            ctx.textBaseline = 'middle';
-
-            const pMax = "100";
-            const nMax = "-75";
-
-            const percentage = (((totalWeight - nMax) / (pMax - nMax)) * 100).toFixed(2);
-
-            ctx.fillText(weight, canvas.width / 2, 675); //weight
-            ctx.fillText(title, canvas.width / 2, 750); //title1
-            ctx.fillText(title2, canvas.width / 2, 825); //title2
-
-            ctx.font = '80px myFont';
-            ctx.fillText(`Your Score: ${totalWeight} / ${pMax} Points`, canvas.width / 2, 320);
-
-            ctx.fillStyle = '#ffd7be';
-            ctx.fillText(`That's ${percentage}% pure`, canvas.width / 2, 480)
-
-            ctx.fillStyle = 'rgba(255, 255, 255, 0.4)';
-            ctx.font = '35px myFont';
-            ctx.fillText(`You picked ${selectedItems.length} / ${listItems.length} Items `, canvas.width / 2, 400); 
-
-            let finalUsername = usernameInput.value
-            let maxLength = 22;
-
-            if (finalUsername.length > maxLength) {
-                finalUsername = finalUsername.slice(0, maxLength) + '...';
-            }
-
-            ctx.fillStyle = 'rgba(255, 255, 255, 0.75)';
-            ctx.textAlign = 'center';
-            ctx.textBaseline = 'middle';
-            ctx.font = '40px myFont';
-            ctx.fillText(`Score for: ${finalUsername}`, canvas.width / 2, 930) //username
-
-            document.getElementById('download-btn').disabled = false;
-            }}};
-
-            downloadButton.addEventListener('click', () => {
-                const dataURL = canvas.toDataURL('image/png');
-                const link = document.createElement('a');
-                link.href = dataURL;
-                link.download = 'image.png';
-                link.click();
-            });
-        }
-});
-</script>
-<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token":"872aa0053fb94ba7bf52129ad5b003ea"}'></script>
-</body>
-
+    <footer class="site-footer">
+      <p>
+        League Purity Test made with ❤️‍🔥 by
+        <a href="https://timfernix.github.io/" target="_blank" rel="noopener">timfernix</a>
+      </p>
+      <p>
+        This Project was created under Riot Games' "Legal Jibber Jabber" policy using assets owned by Riot Games. Riot Games does not endorse or sponsor this project.
+      </p>
+    </footer>
+    <script type="module" src="js/app.js"></script>
+    <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "872aa0053fb94ba7bf52129ad5b003ea"}'></script>
+  </body>
+</html>

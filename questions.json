@@ -1,0 +1,254 @@
+{
+  "categories": [
+    {
+      "name": "Sportsmanship",
+      "questions": [
+        { "text": "Encouraged teammates with positive, specific feedback mid-game.", "weight": 2, "nsfw": false },
+        { "text": "Complimented an opponent for a clean outplay or smart macro.", "weight": 2, "nsfw": false },
+        { "text": "Chose not to kill an AFK/disconnected enemy when you easily could.", "weight": 3, "nsfw": false },
+        { "text": "Kept all-chat playful and light without baiting or sarcasm.", "weight": 1, "nsfw": false },
+        { "text": "Praised someone’s skin or chroma in good faith.", "weight": 1, "nsfw": false },
+        { "text": "Body-blocked a lethal ability (e.g., Caitlyn R) to save a teammate.", "weight": 3, "nsfw": false },
+        { "text": "Stayed calm and defused tilt when your team started flaming.", "weight": 2, "nsfw": false },
+        { "text": "Muted toxicity instead of replying in kind (mute or fullmute).", "weight": 2, "nsfw": false },
+        { "text": "Honored a teammate for leadership, shotcalling, or kindness.", "weight": 1, "nsfw": false },
+        { "text": "Intentionally gave an enemy a penta because the outcome was already decided.", "weight": 1, "nsfw": false }
+      ]
+    },
+    {
+      "name": "Competitive Achievements",
+      "questions": [
+        { "text": "Voted against surrender and helped turn the game around.", "weight": 2, "nsfw": false },
+        { "text": "Set up a teammate to secure a pentakill.", "weight": 3, "nsfw": false },
+        { "text": "Landed your own pentakill in Summoner’s Rift.", "weight": 3, "nsfw": false },
+        { "text": "Solo-killed Baron Nashor to save a lost game or force a win.", "weight": 3, "nsfw": false },
+        { "text": "Stole a major objective (Herald/Dragon/Baron) with perfect timing.", "weight": 2, "nsfw": false },
+        { "text": "Turned a fight with a clutch ultimate that flipped the game’s momentum.", "weight": 3, "nsfw": false },
+        { "text": "Carried with an off-meta pick or unconventional build.", "weight": 2, "nsfw": false },
+        { "text": "Predicted the enemy jungler’s path and punished it.", "weight": 2, "nsfw": false },
+        { "text": "Defended the nexus alone against two or more enemies.", "weight": 3, "nsfw": false },
+        { "text": "Won a match without losing a single turret.", "weight": 2, "nsfw": false },
+        { "text": "Achieved an S+ in a ranked game.", "weight": 1, "nsfw": false },
+        { "text": "Ace’d the enemy team in a coordinated 5-man wipe.", "weight": 1, "nsfw": false },
+        { "text": "Roamed proactively and secured kills or key summoners for another lane.", "weight": 1, "nsfw": false },
+        { "text": "Survived 10+ minutes without dying while maintaining pressure.", "weight": 1, "nsfw": false },
+        { "text": "Won a 1v2 or 1v3 skirmish through mechanics and kiting.", "weight": 3, "nsfw": false },
+        { "text": "Invaded flawlessly and stole a buff without casualties.", "weight": 2, "nsfw": false },
+        { "text": "Won all placement matches in a split (5/5 or 10/10).", "weight": 2, "nsfw": false },
+        { "text": "Hit a 10+ game win streak in ranked.", "weight": 2, "nsfw": false },
+        { "text": "Secured all four drakes in a row to claim Dragon Soul uncontested.", "weight": 2, "nsfw": false },
+        { "text": "Doubled the enemy support’s vision score with superior warding.", "weight": 2, "nsfw": false },
+        { "text": "Tracked and called summoner spell timers that led to a game-winning fight.", "weight": 2, "nsfw": false },
+        { "text": "Watched Rift Herald (“Shelly”) dance after crashing into the nexus.", "weight": 1, "nsfw": false },
+        { "text": "Hit Challenger in any split or season.", "weight": 3, "nsfw": false },
+        { "text": "Won Clash or another organized tournament bracket.", "weight": 2, "nsfw": false }
+      ]
+    },
+    {
+      "name": "Negative Behavior & Sanctions",
+      "questions": [
+        { "text": "Sent explicit or grossly inappropriate messages in chat.", "weight": -2, "nsfw": true },
+        { "text": "Used a slur or hate speech toward another player.", "weight": -3, "nsfw": false },
+        { "text": "Intentionally fed or ran it down to sabotage the game.", "weight": -3, "nsfw": false },
+        { "text": "Soft-inted or refused to contest objectives on purpose.", "weight": -2, "nsfw": false },
+        { "text": "Rage-quit a match due to poor play or tilt.", "weight": -2, "nsfw": false },
+        { "text": "Kill-stole on purpose to grief a teammate.", "weight": -1, "nsfw": false },
+        { "text": "Spam-voted FF to pressure your team into surrendering.", "weight": -2, "nsfw": false },
+        { "text": "Threw a game on purpose to record a flashy montage play.", "weight": -2, "nsfw": false },
+        { "text": "Ping-spammed to harass a teammate.", "weight": -2, "nsfw": false },
+        { "text": "Ignored reasonable team strategy and caused a preventable loss.", "weight": -1, "nsfw": false },
+        { "text": "Lied about your rank to flex or manipulate teammates.", "weight": -1, "nsfw": false },
+        { "text": "Rage DMed someone after a match.", "weight": -2, "nsfw": false },
+        { "text": "Reported a player without a legitimate reason.", "weight": -1, "nsfw": false },
+        { "text": "Received a formal warning for behavior.", "weight": -1, "nsfw": false },
+        { "text": "Served a chat restriction.", "weight": -1, "nsfw": false },
+        { "text": "Served a two-week suspension.", "weight": -2, "nsfw": false },
+        { "text": "Got permanently banned on an account.", "weight": -3, "nsfw": false },
+        { "text": "Got IP-banned or HWID-banned.", "weight": -3, "nsfw": false },
+        { "text": "Used scripts or third-party cheating tools.", "weight": -3, "nsfw": false }
+      ]
+    },
+    {
+      "name": "Common Mistakes",
+      "questions": [
+        { "text": "Lost a smiteable objective to a player who didn’t have Smite.", "weight": -1, "nsfw": false },
+        { "text": "Whiffed a key ultimate in a make-or-break teamfight.", "weight": -2, "nsfw": false },
+        { "text": "Died alone to a roam you didn’t track.", "weight": -1, "nsfw": false },
+        { "text": "Got utterly outclassed in lane and couldn’t stabilize.", "weight": -1, "nsfw": false },
+        { "text": "Inted your comfort pick and questioned your mastery.", "weight": -1, "nsfw": false },
+        { "text": "Was outplayed by someone several tiers below your rank.", "weight": -2, "nsfw": false },
+        { "text": "Ended a game 0/10 or worse.", "weight": -2, "nsfw": false },
+        { "text": "Split-pushed lategame in URF while your team fought 4v5.", "weight": -1, "nsfw": false },
+        { "text": "Became the enemy’s easy target and fed repeated deaths.", "weight": -1, "nsfw": false },
+        { "text": "Died as the only casualty in multiple consecutive teamfights.", "weight": -1, "nsfw": false },
+        { "text": "Mis-clicked chat vs. ability at a critical moment.", "weight": -1, "nsfw": false },
+        { "text": "Queued with the wrong runes or summonerspells.", "weight": -1, "nsfw": false },
+        { "text": "Got caught during level-1 invade due to poor spacing.", "weight": -1, "nsfw": false },
+        { "text": "Overcommitted to a doomed gank and donated a kill.", "weight": -1, "nsfw": false },
+        { "text": "Died to minions or jungle monsters.", "weight": -2, "nsfw": false },
+        { "text": "Missed several cannon minions in a single game.", "weight": -1, "nsfw": false },
+        { "text": "Flashed into a wall in a clutch situation.", "weight": -1, "nsfw": false },
+        { "text": "Died to fountain trying to chase KDA glory.", "weight": -1, "nsfw": false }
+      ]
+    },
+    {
+      "name": "Champion Select & Draft",
+      "questions": [
+        { "text": "Swapped pick order to enable a better draft.", "weight": 1, "nsfw": false },
+        { "text": "Agreed to lane swap for team comp or matchup.", "weight": 1, "nsfw": false },
+        { "text": "Matched skins with a friend for fun.", "weight": 1, "nsfw": false },
+        { "text": "Matched skins with a random teammate to boost morale.", "weight": 1, "nsfw": false },
+        { "text": "Queued with a full team of matching skins.", "weight": 2, "nsfw": false },
+        { "text": "Traded your champion to a teammate in ARAM.", "weight": 1, "nsfw": false },
+        { "text": "Skipped Exhaust in ARAM or event modes despite strong value.", "weight": -1, "nsfw": false },
+        { "text": "Banned the enemy’s obvious comfort pick to neutralize them.", "weight": 1, "nsfw": false },
+        { "text": "Let yourself get hard counter-picked without planning fallback picks.", "weight": -1, "nsfw": false },
+        { "text": "Drafted a champion that countered 3+ enemy picks.", "weight": 2, "nsfw": false },
+        { "text": "Troll-picked to force a dodge or grief your team’s draft.", "weight": -2, "nsfw": false },
+        { "text": "Refused a reasonable trade request without cause.", "weight": -1, "nsfw": false },
+        { "text": "Declined to match a team skin theme just to be difficult.", "weight": -1, "nsfw": false },
+        { "text": "Autofilled into an unfamiliar role and hard-lost the game.", "weight": -1, "nsfw": false }
+      ]
+    },
+    {
+      "name": "Social & Teamplay",
+      "questions": [
+        { "text": "Taught a friend core mechanics, wave control, or jungle pathing.", "weight": 2, "nsfw": false },
+        { "text": "Gifted a skin, RP, or loot to someone.", "weight": 2, "nsfw": false },
+        { "text": "Ran customs to test a skin, combo, or strategy.", "weight": 1, "nsfw": false },
+        { "text": "Invited someone to queue just because they popped online.", "weight": 1, "nsfw": false },
+        { "text": "Organized your friends list into folders that actually help.", "weight": 1, "nsfw": false },
+        { "text": "Duo’d consistently with your IRL best friend.", "weight": 3, "nsfw": false },
+        { "text": "Queued with friends specifically to chase challenge points.", "weight": 2, "nsfw": false },
+        { "text": "Said “last one for tonight”… then kept playing together.", "weight": 1, "nsfw": false },
+        { "text": "Picked a witty or memorable Riot ID.", "weight": 1, "nsfw": false },
+        { "text": "Joined small tournaments or 1v1/2v2 duels with friends.", "weight": 2, "nsfw": false },
+        { "text": "Became friends with someone you first met in a match.", "weight": 3, "nsfw": false },
+        { "text": "Shared lobby lead so others could choose the mode.", "weight": 1, "nsfw": false },
+        { "text": "Fielded build or matchup questions from teammates.", "weight": 1, "nsfw": false },
+        { "text": "Offered constructive feedback in post-game without flaming.", "weight": 2, "nsfw": false },
+        { "text": "Owned a bad game and apologized to your team.", "weight": 1, "nsfw": false },
+        { "text": "Created a smurf to play with a romantic interest.", "weight": -1, "nsfw": false },
+        { "text": "Flirted in DMs with someone you met through League.", "weight": -1, "nsfw": false }
+      ]
+    },
+    {
+      "name": "Progression & Mastery",
+      "questions": [
+        { "text": "Completed the tutorial and learned the basics properly.", "weight": 1, "nsfw": false },
+        { "text": "Reached level 30 and unlocked ranked.", "weight": 1, "nsfw": false },
+        { "text": "Hit account level 100 or higher.", "weight": 1, "nsfw": false },
+        { "text": "Hit account level 500 or higher.", "weight": 2, "nsfw": false },
+        { "text": "Hit account level 1000 or higher.", "weight": 2, "nsfw": false },
+        { "text": "Played 10+ games in a single 24-hour period.", "weight": 1, "nsfw": false },
+        { "text": "Secured a penta in normals or ARAM.", "weight": 2, "nsfw": false },
+        { "text": "Reached Honor level 5.", "weight": 2, "nsfw": false },
+        { "text": "Earned all four ally honors in one game.", "weight": 2, "nsfw": false },
+        { "text": "Earned six or more honors in one game.", "weight": 2, "nsfw": false },
+        { "text": "Achieved Mastery level 100+ on any champion.", "weight": 3, "nsfw": false },
+        { "text": "Collected every skin for a single champion.", "weight": 1, "nsfw": false },
+        { "text": "Used replays to review and fix mistakes.", "weight": 2, "nsfw": false },
+        { "text": "Hit Iron IV in ranked at any point.", "weight": -2, "nsfw": false }
+      ]
+    },
+    {
+      "name": "Tools, Learning & Analysis",
+      "questions": [
+        { "text": "Installed Porofessor or similar overlays to learn faster.", "weight": 1, "nsfw": false },
+        { "text": "Used u.gg, op.gg, or League of Graphs (etc.) to prep matchups.", "weight": 1, "nsfw": false },
+        { "text": "Watched tutorials or high-ELO guides for targeted improvement.", "weight": 1, "nsfw": false },
+        { "text": "Paid for coaching or VOD reviews.", "weight": 2, "nsfw": false },
+        { "text": "Spent practice-tool sessions to lab combos or CS routines.", "weight": 2, "nsfw": false },
+        { "text": "Tracked objective timers and called set-ups in advance.", "weight": 2, "nsfw": false },
+        { "text": "Kept pinks on the map and cleared vision proactively.", "weight": 2, "nsfw": false }
+      ]
+    },
+    {
+      "name": "Events, Fandom & Community",
+      "questions": [
+        { "text": "Watched Worlds broadcasts.", "weight": 1, "nsfw": false },
+        { "text": "Attended Worlds or another major LoL event in person.", "weight": 2, "nsfw": false },
+        { "text": "Cheered for a favorite esports team through a season.", "weight": 1, "nsfw": false },
+        { "text": "Followed League cosplayers or creators online.", "weight": 1, "nsfw": false },
+        { "text": "Cosplayed a League champion or skin.", "weight": 2, "nsfw": false },
+        { "text": "Posted to r/leagueoflegends or similar communities.", "weight": 1, "nsfw": false },
+        { "text": "Joined a League stream and engaged with chat.", "weight": 1, "nsfw": false },
+        { "text": "Donated or subbed to a League streamer.", "weight": 1, "nsfw": false },
+        { "text": "Completed client events or story quests (e.g., Soul Fighter, Spirit Blossom).", "weight": 1, "nsfw": false },
+        { "text": "Watched or shared iconic champion voice lines.", "weight": 1, "nsfw": false },
+      ]
+    },
+    {
+      "name": "Cosmetics, Collection & Spending",
+      "questions": [
+        { "text": "Fed Poros in ARAM (and maybe watched one explode).", "weight": 1, "nsfw": false },
+        { "text": "Customized your profile with borders, titles, or banners.", "weight": 1, "nsfw": false },
+        { "text": "Owned 100+ champions on one account.", "weight": 1, "nsfw": false },
+        { "text": "Owned every champion currently in the game.", "weight": 2, "nsfw": false },
+        { "text": "Rolled an Ultimate-tier skin from chests or orbs", "weight": 1, "nsfw": false },
+        { "text": "Owned 100+ skins.", "weight": 1, "nsfw": false },
+        { "text": "Owned 300+ skins.", "weight": 2, "nsfw": false },
+        { "text": "Spent the equivalent of €100+ on League.", "weight": 1, "nsfw": false },
+        { "text": "Gave or received skins/RP as a gift.", "weight": 2, "nsfw": false },
+        { "text": "Own official Riot merch or fanmade items.", "weight": 1, "nsfw": false }
+      ]
+    },
+    {
+      "name": "Macro, Objectives & Tempo",
+      "questions": [
+        { "text": "Traded a dragon to secure Baron or inhibitor with intent.", "weight": 2, "nsfw": false },
+        { "text": "Called off a risky fight to secure guaranteed map control.", "weight": 2, "nsfw": false },
+        { "text": "Rotated first to Herald and converted it into plates.", "weight": 1, "nsfw": false },
+        { "text": "Kept side waves managed before forcing Baron.", "weight": 2, "nsfw": false },
+        { "text": "Stabilized after a lost early game through disciplined macro.", "weight": 2, "nsfw": false }
+      ]
+    },
+    {
+      "name": "Account, Fair Play & Rules",
+      "questions": [
+        { "text": "Shared your account so someone else could play ranked for you.", "weight": -2, "nsfw": false },
+        { "text": "Bought an account or paid for a rank boost.", "weight": -3, "nsfw": false },
+        { "text": "Boosted someone else’s account or sold one.", "weight": -3, "nsfw": false }
+      ]
+    },
+    {
+      "name": "IRL & Lifestyle",
+      "questions": [
+        { "text": "Missed an exam because of League.", "weight": -2, "nsfw": false },
+        { "text": "Skipped work or an important commitment for League.", "weight": -2, "nsfw": false },
+        { "text": "Played while drunk and made worse decisions for it.", "weight": -2, "nsfw": false },
+        { "text": "Queued while high and couldn’t focus on macro.", "weight": -2, "nsfw": false },
+        { "text": "Played while sick and powered through anyway.", "weight": 1, "nsfw": false },
+        { "text": "Queued on vacation (because streaks don’t keep themselves).", "weight": 1, "nsfw": false },
+        { "text": "Queued during a date (…bold choice).", "weight": -1, "nsfw": false },
+        { "text": "Queued at midnight on New Year’s.", "weight": 1, "nsfw": false },
+        { "text": "Played on public Wi-Fi or in a café/airport.", "weight": 1, "nsfw": false },
+        { "text": "Quoted champion voice lines IRL.", "weight": 1, "nsfw": false },
+        { "text": "Dreamed about anything League-related.", "weight": 1, "nsfw": false },
+        { "text": "Thought “I could be playing right now” while outside.", "weight": 1, "nsfw": false },
+        { "text": "Rage-uninstalled… then reinstalled later.", "weight": -1, "nsfw": false },
+        { "text": "Went 3+ days without showering during a grind.", "weight": -2, "nsfw": false },
+        { "text": "Got into a real argument because of League.", "weight": -1, "nsfw": false },
+        { "text": "Broke something IRL out of tilt.", "weight": -2, "nsfw": false },
+        { "text": "Set a League-themed desktop or phone wallpaper.", "weight": 1, "nsfw": false }
+      ]
+    },
+    {
+      "name": "NSFW & Boundaries",
+      "questions": [
+        { "text": "Cracked a sexual joke about League content or characters.", "weight": -1, "nsfw": true },
+        { "text": "Read or wrote explicit League fanfiction.", "weight": -2, "nsfw": true },
+        { "text": "Sexually fantasized about a champion.", "weight": -2, "nsfw": true },
+        { "text": "Purchased ‘exclusive’ adult content themed around League.", "weight": -2, "nsfw": true },
+        { "text": "Masturbated to fanart of a League character.", "weight": -3, "nsfw": true },
+        { "text": "Owned a suggestive body pillow (or similar) of a champion.", "weight": -2, "nsfw": true },
+        { "text": "Pleasured yourself between queues.", "weight": -3, "nsfw": true },
+        { "text": "Received sexual activity during a game.", "weight": -2, "nsfw": true },
+        { "text": "Had sex while a game was running.", "weight": -3, "nsfw": true },
+        { "text": "Catfished someone for skins or RP.", "weight": -3, "nsfw": true },
+        { "text": "Traded sexual favors for boosts, skins, or RP.", "weight": -3, "nsfw": true },
+        { "text": "Provided boosts or items in exchange for sexual favors.", "weight": -3, "nsfw": true }
+      ]
+    }
+  ]
+}

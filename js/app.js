@@ -174,7 +174,7 @@ function renderModeMenu() {
         <div style="text-align:center; max-width:720px;">
           <h2 style="margin:.2em 0 0;">Welcome</h2>
           <p style="color:var(--muted); margin:.6em 0 1.2em;">
-            Welcome to the League of Legends Purity Test (v3). This version expands and refines previous tests. <br> Here is how it works: Tick all statements that apply to you, then enter a name and pick a background. <br> Finally, click "Show Results" to generate your Purity Index!
+            Welcome to the League of Legends Purity Test (v3). This version expands and refines previous tests. <br> Here is how it works: Tick all statements that apply to you, then enter a name and pick a background. <br> Finally, click "Download Image" to generate your Purity Index!
           </p>
           <h2 style="margin:.2em 0 0;">Choose test version</h2>
           <p style="color:var(--muted); margin:.6em 0 1.2em;">

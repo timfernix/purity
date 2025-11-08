@@ -62,7 +62,7 @@ const RANK_COPY = {
   iron: {
     l1: [
       "Reflect on your behavior and gameplay.",
-      "This run was rough—time to reset and refocus."
+      "This run was rough - time to reset and refocus."
     ],
     l2: [
       "Toxicity has no place here.",
@@ -72,7 +72,7 @@ const RANK_COPY = {
   bronze: {
     l1: [
       "Step back and assess your decisions.",
-      "Foundations first—clean up the basics."
+      "Foundations first - clean up the basics."
     ],
     l2: [
       "Identify a few habits to fix.",
@@ -91,12 +91,12 @@ const RANK_COPY = {
   },
   gold: {
     l1: [
-      "You’re showing promise—keep grinding.",
+      "You’re showing promise - keep grinding.",
       "Solid progress, keep the momentum."
     ],
     l2: [
       "Lock in good habits and clarity.",
-      "Improve decision-making under pressure."
+      "Improve decision - making under pressure."
     ]
   },
   platinum: {
@@ -125,7 +125,7 @@ const RANK_COPY = {
       "You set the tone for your team."
     ],
     l2: [
-      "Lead by example—in comms and plays.",
+      "Lead by example - in comms and plays.",
       "Push for clean setups and execution."
     ]
   },
@@ -141,7 +141,7 @@ const RANK_COPY = {
   },
   grandmaster: {
     l1: [
-      "Outstanding run—top tier energy.",
+      "Outstanding run - top tier energy.",
       "You’re setting a standard in game."
     ],
     l2: [
@@ -152,11 +152,11 @@ const RANK_COPY = {
   challenger: {
     l1: [
       "Legend in the making.",
-      "Elite flow—calm, clean, clinical."
+      "Elite flow - calm, clean, clinical."
     ],
     l2: [
       "Keep shining and elevate others.",
-      "A true role model—own the server."
+      "A true role model - own the server."
     ]
   }
 };

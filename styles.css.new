@@ -1,0 +1,46 @@
+@media (max-width: 680px) {
+  .brand { gap: 10px; }
+  .brand__title { font-size: 1.15rem; }
+  .meta { display: none; }
+
+  .controls { padding: 10px; border-radius: 12px; }
+  .controls__row {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+
+  .search input { width: 100%; }
+
+  .switch { gap: 8px; }
+  .switch-track {
+    width: 52px;
+    height: 30px;
+  }
+  .switch-track::after {
+    width: 26px;
+    height: 26px;
+  }
+  .switch input:checked + .switch-track::after {
+    transform: translateX(22px);
+  }
+
+  .item {
+    grid-template-columns: 28px 1fr;
+    gap: 8px;
+    padding: 10px 8px;
+  }
+  .item input[type="checkbox"] { width: 24px; height: 24px; }
+  .badge {
+    justify-self: end;
+    grid-column: 2 / -1;
+    margin-top: 6px;
+  }
+
+  .actions { gap: 6px; }
+  .actions button { flex: 1 1 140px; }
+
+  /* Only hide canvas on mobile */
+  #result-canvas {
+    display: none !important;
+  }
+}

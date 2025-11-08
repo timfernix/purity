@@ -430,8 +430,8 @@ body.progress-empty .topbar__progress{
   .actions { gap: 6px; }
   .actions button { flex: 1 1 140px; }
 
-  #show-results {
-    display: none;
+  #result-canvas {
+    display: none !important;
   }
 }
 

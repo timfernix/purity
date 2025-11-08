@@ -464,4 +464,19 @@ dlBtn?.addEventListener("click", () => {
 /* ----------------- Init ----------------- */
 (function init() {
   renderModeMenu();
+  
+  // Update button text based on screen size
+  const updateButtonText = () => {
+    if (showBtn) {
+      showBtn.textContent = window.innerWidth <= 680 ? 
+        "Generate Result" : 
+        "Show Results / Update";
+    }
+  };
+
+  // Initial update
+  updateButtonText();
+
+  // Update on resize
+  window.addEventListener('resize', updateButtonText);
 })();

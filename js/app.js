@@ -474,9 +474,7 @@ dlBtn?.addEventListener("click", () => {
     }
   };
 
-  // Initial update
   updateButtonText();
 
-  // Update on resize
   window.addEventListener('resize', updateButtonText);
 })();
